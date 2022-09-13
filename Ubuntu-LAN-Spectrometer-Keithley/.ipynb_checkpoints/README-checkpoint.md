@@ -92,8 +92,8 @@ With a LAN hub, a single network interface card can be connected to as many inst
 ![LAN-12](images/LAN-12.jpg "LAN-12")
 
 # Refs & Links
-Image Ubuntu: https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_1088,h_630/https://assets.ubuntu.com/v1/a8e96807-desktop-xps13-small.png
-Article: https://itsfoss.com/restart-network-ubuntu/
-Article: https://vitux.com/find-devices-connected-to-your-network-with-nmap/
-Article: https://www.tek.com/en/support/faqs/it-possible-establish-peer-peer-ethernet-connection-5-and-6-series-mso
-Article: https://superuser.com/questions/1037346/i-have-both-ipv4-and-ipv6-public-addresses-why
+Image Ubuntu: https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_1088,h_630/https://assets.ubuntu.com/v1/a8e96807-desktop-xps13-small.png  
+Article: https://itsfoss.com/restart-network-ubuntu/  
+Article: https://vitux.com/find-devices-connected-to-your-network-with-nmap/  
+Article: https://www.tek.com/en/support/faqs/it-possible-establish-peer-peer-ethernet-connection-5-and-6-series-mso  
+Article: https://superuser.com/questions/1037346/i-have-both-ipv4-and-ipv6-public-addresses-why  
