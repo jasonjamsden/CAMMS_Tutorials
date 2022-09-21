@@ -140,7 +140,7 @@ Every time the connection between Ubuntu and Keithley Source Measure Unit get lo
 
 # Refs & Links
 Image Ubuntu: 
-Article: https://download.tek.com/manual/2461-901-01_A_Nov_2015_Ref.pdf
-Article: https://www.xmodulo.com/change-usb-device-permission-linux.html  
-Article: https://www.cl.cam.ac.uk/~osc22/tutorials/gpib_usb_linux.html
-Article: https://pyvisa.readthedocs.io/en/latest/
+Article: https://download.tek.com/manual/2461-901-01_A_Nov_2015_Ref.pdf    
+Article: https://www.xmodulo.com/change-usb-device-permission-linux.html    
+Article: https://www.cl.cam.ac.uk/~osc22/tutorials/gpib_usb_linux.html    
+Article: https://pyvisa.readthedocs.io/en/latest/    
