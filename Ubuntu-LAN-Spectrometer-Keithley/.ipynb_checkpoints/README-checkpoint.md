@@ -1,10 +1,10 @@
-# Tutorial for connecting the Keithley Spectrometer to Ubuntu 20.04 over LAN (Wired).
+# Tutorial for connecting the Keithley Source Measure Unit to Ubuntu 20.04 over LAN (Wired).
 
-The Spectrometer **Keithley 2461** and **Ubuntu 20.04** operating systems are used in this tutorial, but it may also be applicable to other Keithley Spectrometer machines from the 24XX family which have LAN connection capabilities. We only need common Ubuntu commands because the Spectrometer does not require for LAN connection additional drivers to function properly with the Ubuntu OS.  
+The Source Measure Unit **Keithley 2461** and **Ubuntu 20.04** operating systems are used in this tutorial, but it may also be applicable to other Keithley Source Measure Unit machines from the 24XX family which have LAN connection capabilities. We only need common Ubuntu commands because the Source Measure Unit does not require for LAN connection additional drivers to function properly with the Ubuntu OS.  
 
 ![LAN-0](images/LAN-0.jpg "LAN-0")
 
-You can communicate with the Spectrometer using a local area network (LAN). The LAN interface can be used to build flexible test systems that include web access. This section provides an overview of LAN communications for the Model 2461.
+You can communicate with the Source Measure Unit using a local area network (LAN). The LAN interface can be used to build flexible test systems that include web access. This section provides an overview of LAN communications for the Model 2461.
 
 The installation will place in 3 steps:  
 - Physical layer connection
@@ -81,7 +81,7 @@ sudo apt-get install lxi-tools
 
 
 # Step 7: NI & Python
-In a different tutorial, we will demonstrate how to install NI and Python interactions with the Keithley 2461 device through a LAN connection, because it needs drivers and depends on those drives. The scope of this tutorial is to communication with a spectrometer device without the use of external drivers.
+In a different tutorial, we will demonstrate how to install NI and Python interactions with the Keithley 2461 device through a LAN connection, because it needs drivers and depends on those drives. The scope of this tutorial is to communication with a Source Measure Unit device without the use of external drivers.
 
 ![LAN-11](images/LAN-11.jpg "LAN-11")
 
