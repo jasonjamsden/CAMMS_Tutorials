@@ -10,7 +10,8 @@ You will see the key _THE_KEY_
 -Edit key permission:
 `$> gpg --edit-key _THE_KEY_`  
 `gpg> trust`  
-`Your decision> 4`  
+`Your decision> 5`
+`Your decision> y`
 
 - Exit gpg:
 `Ctrl C`
