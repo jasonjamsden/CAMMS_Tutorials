@@ -89,8 +89,7 @@ Execute the SDK installation script:
 
 The following log is output when the installation is successful:
 
-ST OpenSTLinux - Weston - (A Yocto Project Based Distro) SDK installer version 4.0.1-openstlinux-5.15-yocto-kirkstone-mp1-v22.06.15
-===================================================================================================================================
+ST OpenSTLinux - Weston - (A Yocto Project Based Distro) SDK installer version 4.0.1-openstlinux-5.15-yocto-kirkstone-mp1-v22.06.15===================================================================================================================================
 You are about to install the SDK to "/opt/st/stm32mp1/4.0.1-openstlinux-5.15-yocto-kirkstone-mp1-v22.06.15". Proceed [Y/n]? Y
 Extracting SDK............................................................................................................................................................................................................................done
 Setting it up...done
@@ -99,7 +98,7 @@ Each time you wish to use the SDK in a new shell session, you need to source the
  $ ./opt/st/stm32mp1/4.0.1-openstlinux-5.15-yocto-kirkstone-mp1-v22.06.15/environment-setup-cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi
 
 
-# Start the SDK up 
+# Step 3 - Start the SDK up 
 
 `$> cd /opt/st/stm32mp1/4.0.1-openstlinux-5.15-yocto-kirkstone-mp1-v22.06.15/`
 
