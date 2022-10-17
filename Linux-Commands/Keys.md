@@ -1,7 +1,16 @@
 # Make Keys trusted
 
-Install a new key:
-'$> gpg --recv-key 8BB9AD793E8E6153AF0F9A4416530D5E920F5C65'
+- Install a new key:  
+`$> gpg --recv-key _THE_KEY_`  
 
-Check if the key is installed:
-'$> gpg --list-keys
+- Check if the key is installed:
+`$> gpg --list-keys`  
+You will see the key _THE_KEY_  
+
+-Edit key permission:
+`$> gpg --edit-key _THE_KEY_`  
+`gpg> trust`  
+`Your decision> 4`  
+
+- Exit gpg:
+`Ctrl C`
