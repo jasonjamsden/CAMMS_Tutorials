@@ -6,16 +6,18 @@ After booting Linux operational System to the STM32MP15 Microprocessor following
 
 - First you need to follow the previous tutorial: **SDK-stallation** and install the SDK to the host computer.
 
-# Step 2:
+# Step 2: Basic Code
 
 - Create a directory that will host your source codes:
 
 `$> mkdir ~/STM32MPU_workspace/STM32MP1-Ecosystem-v4.0.0/Developer-Package/stm32mp1-openstlinux-22.06.15`
+
 `$> mkdir ~/STM32MPU_workspace/STM32MP1-Ecosystem-v4.0.0/Developer-Package/stm32mp1-openstlinux-22.06.15/sources`
 
 - Create a directory that will host your source codes
 
 `$> mkdir ~/STM32MPU_workspace/STM32MP1-Ecosystem-v4.0.0/Developer-Package/stm32mp1-openstlinux-22.06.15/sources/gtk_hello_world_example`
+
 `$> cd ~/STM32MPU_workspace/STM32MP1-Ecosystem-v4.0.0/Developer-Package/stm32mp1-openstlinux-22.06.15/sources/gtk_hello_world_example`
 
 - Create the source code file for your user space example: **gtk_hello_world.c**:
@@ -52,9 +54,46 @@ activate (GtkApplication *app,
 
   gtk_widget_show_all (window);
 }
+
+int
+main (int    argc,
+      char **argv)
+{
+  GtkApplication *app;
+  int status;
+
+  app = gtk_application_new ("org.gtk.example", G_APPLICATION_FLAGS_NONE);
+  g_signal_connect (app, "activate", G_CALLBACK (activate), NULL);
+  status = g_application_run (G_APPLICATION (app), argc, argv);
+  g_object_unref (app);
+
+  return status;
+}
 ```
+# Step 3: Build the Program
+
+- Create the makefile for your user space example: **Makefile**
+
+```
+PROG = gtk_hello_world
+SRCS = gtk_hello_world.c
+
+CLEANFILES = $(PROG)
+
+# Add / change option in CFLAGS and LDFLAGS
+CFLAGS += -Wall $(shell pkg-config --cflags gtk+-3.0)
+LDFLAGS += $(shell pkg-config --libs gtk+-3.0)
+
+all: $(PROG)
+
+$(PROG): $(SRCS)
+	$(CC) -o $@ $^ $(CFLAGS) $(LDFLAGS)
+
+clean:
+	rm -f $(CLEANFILES) $(patsubst %.c,%.o, $(SRCS))
+ ```
+- Cross-compile the project
+
+`$> make`
 
 
-
-
- 
