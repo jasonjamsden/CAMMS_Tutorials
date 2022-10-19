@@ -96,4 +96,37 @@ clean:
 
 `$> make`
 
+# Step 4: Deploy and execute
+
+- Take a USB HD, and plug it into your host computer. 
+- Copy the C executable which you created from the previous step into the USB HD.
+- Unmount the USB HD from the host computer (with the executable inside to the mean directory).
+- Mount the USB HD to the STM32MP15 Microprocessor.
+- Open the terminal **from the  STM32MP15 Microprocessor** leave from now on the host computer.
+- And execute the commands:
+
+`mount /dev/sda1 /mnt`  
+
+`cp /mnt/gtk_hello_world /usr/local`
+
+`sync`
+
+`cd /usr/local`
+
+`chmod +x gtk_hello_world`
+
+`./gtk_hello_world`
+
+- And a window will be displayed on screen with a hello world message.
+
+**This is the first simple program.**
+
+**Important NOTE 1**: In the workshop tutorial they execute the `./gtk_hello_world` program from the terminal of the host computer however I get an error `(gtk_hello_world:1450): Gtk-WARNING **: 16:38:44.238: cannot open display`. Probably because the host computer needs additional permissions for the desplay use. 
+
+**Important NOTE 2**: In the official website tutorial they pass and execute the `./gtk_hello_world` program through Ethernet communication which of course we need to use for the communication between host and board and in the next tutorials we will work on it. This was for now a simple program.
+
+# References
+- https://wiki.st.com/stm32mpu/wiki/Getting_started/STM32MP1_boards/STM32MP157x-DK2/Develop_on_Arm%C2%AE_Cortex%C2%AE-A7/Create_a_simple_hello-world_application
+- https://www.youtube.com/watch?v=ARvKOEb482M
+
 
