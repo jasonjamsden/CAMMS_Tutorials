@@ -53,6 +53,8 @@ The IDE program is an Integrated development environment. While the STM32MP15 is
 
 - Your board might be connected to the PC by Ethernet, either using RJ45 (point to point or VLAN) or USB0 EthernetOverUSB gadget. Now lets make available the connection between the STM32CubeIDE and the STM32MP15 Microprocessor. Press the debug arrow and select "Debug Configuation" check the infromation and press debug. After the process is finished at the bottom right corner you will see the status green.
 
+![ide-6](images/ide-6.jpg "ide-6")
+
 - So now everything is set and you are ready to write your first program in the IDE.
 
 
