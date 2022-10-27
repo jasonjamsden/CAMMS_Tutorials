@@ -26,6 +26,17 @@ Following the **IDE Installation guidelines** it's time to create a simple IDE p
     - The **ioc** file in which we will configure the PINs of the board 
     - And the **mean.c** file in the **CM4>Core>Src** folder
     
+- In the **ioc** file we select which PIN we will use for the current project purposes. Order to make the Green LED blink (https://wiki.st.com/stm32mpu/wiki/STM32MP157x-DKx_-_hardware_description#User_buttons_and_LEDs), we have to modify and lock the **PA14 PIN**:
+
+![idef-3](images/idef-3.jpg "idef-3")
+
+![idef-4](images/idef-4.jpg "idef-4")
+
+- Select the **PA14 PIN**: and LEFT Click on it, then select **GPIO_Output** 
+
+![idef-5](images/idef-5.jpg "idef-5")
+
+- Select again the **PA14 PIN**: and RIGHT Click on it, then select
 
 
 # References
