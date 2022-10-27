@@ -20,6 +20,8 @@ Following the **IDE Installation guidelines** it's time to create a simple IDE p
     
 ![idef-2](images/idef-2.jpg "idef-2")
 
+- Connect the **STM32MP1-57C-DK2** board as we explained in the previous tutorial. You sould see at the bottom right corner a green light.
+
 # First Program
 
 - For the current LAB project purposes we will mostly use 2 files:
@@ -36,8 +38,26 @@ Following the **IDE Installation guidelines** it's time to create a simple IDE p
 
 ![idef-5](images/idef-5.jpg "idef-5")
 
-- Select again the **PA14 PIN**: and RIGHT Click on it, then select
+- Select again the **PA14 PIN**: and RIGHT Click on it, then select Pin **Reservation and Cortex-M4**
 
+![idef-6](images/idef-6.jpg "idef-6")
+
+- Then Save this **ioc** program by pressing CNTL+S. This will generate Code automatically to the **main.c** file
+
+- Now that the IDE generated code automatically, open the **main.c** in the **CM4>Core>Src** folder. The code which you will only insert in **while (1)**, do not insert code anywhere else!
+
+![idef-7](images/idef-7.jpg "idef-7")
+
+- Insert the following to lines of codeinside the aforementioned function:
+
+`HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_14);`
+` HAL_Delay(500);`
+
+- Save the program and press the build button.
+
+![idef-8](images/idef-8.jpg "idef-8")
+
+- Select de
 
 # References
 - https://www.youtube.com/watch?v=Azr5vjbgACM&list=PLnMKNibPkDnFCosVVv98U5dCulE6T3Iy8&index=3
