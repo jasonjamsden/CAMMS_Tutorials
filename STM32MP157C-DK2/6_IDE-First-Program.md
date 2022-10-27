@@ -22,7 +22,7 @@ Following the **IDE Installation guidelines** it's time to create a simple IDE p
 
 - Connect the **STM32MP1-57C-DK2** board as we explained in the previous tutorial. You sould see at the bottom right corner a green light.
 
-# First Program
+# Build First Program
 
 - For the current LAB project purposes we will mostly use 2 files:
     - The **ioc** file in which we will configure the PINs of the board 
@@ -57,7 +57,21 @@ Following the **IDE Installation guidelines** it's time to create a simple IDE p
 
 ![idef-8](images/idef-8.jpg "idef-8")
 
-- Select de
+# Execute First Program
+
+- From the Debug icon select the **Down Arrow > Debug As >  STM32 C/C++ Application.
+
+![idef-9](images/idef-9.jpg "idef-9")
+
+- Leave everything default (we configured them in the previous tutorial **IDE Installation**), and press OK.
+
+- After few seconds you will see in the board a Gren LED blinking every half a second.
+
+![idef-10](images/idef-10.jpg "idef-10")
+
+# Conclusion
+
+- This tutorial presents the basic structure of an IDE project and all of projects that we will create follows the same principles  
 
 # References
 - https://www.youtube.com/watch?v=Azr5vjbgACM&list=PLnMKNibPkDnFCosVVv98U5dCulE6T3Iy8&index=3
