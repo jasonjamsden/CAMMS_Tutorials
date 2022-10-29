@@ -4,4 +4,5 @@
 - Linux/Unix; Debian-11; Ubuntu
 - Spectrometer-Keithley 
 
-instructions 
+# References
+- https://camms.pratt.duke.edu/
