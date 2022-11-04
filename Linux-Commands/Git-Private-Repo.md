@@ -1,25 +1,29 @@
-4. Make sure git is installed:
+# Make sure git is installed:
 
-    a. `$ sudo apt-get install git`
+a. `$ sudo apt-get install git`
     
     
-6. **SSH Public/Private key** pair generated needed for Git clone:
+**SSH Public/Private key** pair generated needed for Git clone:
 
-    a. `$ ls -al ~/.ssh/id_rsa.pub`
+a. `$ ls -al ~/.ssh/id_rsa.pub`
         (if a returned nothing continue to step b)
 
-    b. `$ ssh-keygen` (use default options - just press only Enter)
+b. `$ ssh-keygen` (use default options - just press only Enter)
 
-    c. Go to the directory `$ ~/.ssh`
+
+c. Go to the directory `$ ~/.ssh`
     
-    d. Open the file `$ atom id_rsa.pub` and copy the key, the entire content of the file.
+
+d. Open the file `$ atom id_rsa.pub` and copy the key, the entire content of the file.
     
-    e. Go to your `Github > Setting > SSH and GPG keys > New SSH key` and and a new SSH key by copying the key from the `id_rsa.pub` file.  
 
-7. Clone and install the client:
+e. Go to your `Github > Setting > SSH and GPG keys > New SSH key` and and a new SSH key by copying the key from the `id_rsa.pub` file.  
 
-    a. `$ cd ~`
 
-    b. `$ git clone git@github.com:jasonjamsden/cycloidal_client.git`
+**Clone and install the client:**
+
+a. `$ cd ~`
+
+b. `$ git clone git@github.com:REPO_NAME.git`
         (cloning ensues)
 
