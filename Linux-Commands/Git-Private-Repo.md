@@ -38,6 +38,10 @@ f. now you are ready to clone and update your repositories.
 
 a. `$ cd ~`
 
-b. `$ git clone git@github.com:REPO_NAME.git`
-        (cloning ensues)
+b. `$ git clone git@github.com:PATH_REPO_NAME.git`
+      
+   - for example: `$ git clone git@github.com:jasonjamsden/CAMMS_Tutorials.git`
+   
+**Steck Status of the local git repo:**
 
+a. `$ cd REPO_NAME` to the particular git repo and check status: `$ git status`
