@@ -57,7 +57,7 @@ a. `$ cd REPO_NAME`
 
 b. `$ git status`
 
-- or see particular local changes:
+- or see particular local changes between different branches:
 
 c. `$ git diff`
 
@@ -79,16 +79,36 @@ c. `$ git diff`
 
 `$ git branch -d BRANCH_NAME`
 
-**Save an commit local changes to your local git:**
+**MODIFIED FILES: Save an commit local changes to your local git:**
 
-a. make some local code changes to a previously existing file and save this file.
-
-b.
+- Make some local code changes to a previously existing file and save this file.
 
 - adds and commits at the same time for modified files NOT newly created files
-`$ git commit -am "COMMENT_OF_COMMIT"`
-**`-a` stands for add and `m` stands for message
+`$ git commit -am "COMMENT_OF_COMMIT"` where `-a` stands for add and `m` stands for message
 
+
+**NEW FILES: Save an commit local changes to your local git:**
+
+- Create a new file named FILE_NAME.
+
+- Save it and track it through git: 
+
+    - Track all the untracked and modified files: 
+
+    `$ git add .`
+
+    - Track a particular file:
+    
+    `$ git add FILE_NAME`
+   
+- Commit the changes to your local computer git:
+
+`$ git commit -m "COMMENT_OF_COMMIT"` where and `m` stands for message.
+
+
+**Save local changes to the Master remote "original" git**
+
+`$ git push`
 
 
 # Reference
