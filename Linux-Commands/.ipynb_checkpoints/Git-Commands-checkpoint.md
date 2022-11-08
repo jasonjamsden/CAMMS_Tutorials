@@ -108,7 +108,7 @@ c. `$ git diff`
 
 **Save local changes to the Master remote "original" git**
 
-`$ git push`
+`$ git push origin BRANCH_NAME`
 
 
 # Reference
