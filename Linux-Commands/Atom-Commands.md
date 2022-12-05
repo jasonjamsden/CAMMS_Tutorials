@@ -10,7 +10,9 @@ Based on the following tutorial: https://flight-manual.atom.io/getting-started/s
 
 ### Install Packages:
 
-In order to install additional packages such as terminal within atom, from a Terminal `$ atm install PACKAGE_NAME` without sudo.
+In order to install additional packages such as terminal within atom or other usful tools for coding assistance: 
+- **Way-1**: from a Terminal `$ atm install PACKAGE_NAME` without sudo.
+- **Way-2**: from atom application: Edit > Preferences > Install Packages > search package you want
 
 ### **Installation**:
 
