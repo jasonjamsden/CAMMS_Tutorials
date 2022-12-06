@@ -15,13 +15,10 @@ a. `$ ls -al ~/.ssh/id_rsa.pub`
 
 b. `$ ssh-keygen` (use default options - just press only Enter)
 
-
 c. Go to the directory: `$ cd ~/.ssh`
     
-
 d. Open the file `$ atom id_rsa.pub` and copy the key, the entire content of the file.
     
-
 e. Go to your `Github > Setting > SSH and GPG keys > New SSH key` and and a new SSH key by copying the key from the `id_rsa.pub` file.  
 
 f. now you are ready to clone and update your repositories. 

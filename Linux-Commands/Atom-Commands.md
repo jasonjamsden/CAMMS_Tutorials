@@ -17,7 +17,7 @@ In order to install additional packages such as terminal within atom or other us
 ### **Installation**:
 
 a. `$ wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -`  
-    
+  
 b. `$ sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'`  
     
 c. `$ sudo apt-get update`  
