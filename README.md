@@ -1,4 +1,4 @@
-# Software install guidelines used by the Coded Aperture Miniature Mass Spectrometer (CAMMS)
+# Software guidelines needed from the Coded Aperture Miniature Mass Spectrometer (CAMMS) Laboratory 
 
 ## for a variety of projects:
 
