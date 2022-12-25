@@ -84,7 +84,7 @@ c. `$ git diff`
 `$ git commit -am "COMMENT_OF_COMMIT"` where `-a` stands for add and `m` stands for message
 
 
-**NEW FILES: Save an commit local changes to your local git:**
+**NEW FILES: Save and commit local changes to your local git:**
 
 - Create a new file named FILE_NAME.
 
@@ -106,6 +106,9 @@ c. `$ git diff`
 **Save local changes to the Master remote "original" git**
 
 `$ git push origin BRANCH_NAME`
+
+**Pull Requests & Reviewers **
+- How to do coding peer reviews with Github: https://www.youtube.com/watch?v=8fx-EaOUK2E
 
 
 # Reference
