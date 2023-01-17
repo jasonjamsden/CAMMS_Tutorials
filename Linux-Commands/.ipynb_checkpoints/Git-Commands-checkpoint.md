@@ -150,8 +150,6 @@ b. you execute the command `$ git merge [BRANCH_NAME]`
 `$ git commit -am "COMMENT_OF_COMMIT"` where `-a` stands for add and `m` stands for message
 
 
-### **NEW FILES: Save an commit local changes to your local git:**
-
 - Create a new file named FILE_NAME.
 
 - Save it and track it through git: 
@@ -174,6 +172,9 @@ b. you execute the command `$ git merge [BRANCH_NAME]`
 `$ git push origin [BRANCH_NAME]`
 
 where [BRANCH_NAME] is one of the branches from the `$ git checkout BRANCH_NAME` listx 
+
+**Pull Requests & Reviewers **
+- How to do coding peer reviews with Github: https://www.youtube.com/watch?v=8fx-EaOUK2E
 
 
 ### Configure Git
