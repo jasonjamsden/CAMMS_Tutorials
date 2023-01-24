@@ -8,6 +8,47 @@ This documentation serves as a comprehensive guide for utilizing Git and Github 
 
 1. **[Remote & Local Git Connection](#Remote-&-Local-Git-Connection)**
 
+1. **[Version Control System](#Version-Control-System)**
+
+1. **[Git Installation (Locally or Server)](#Git-Installation-(Locally-or-Server)**
+
+1. **[Creating Git Repository Locally & Remotely](#Creating-Git-Repository-Locally-&-Remotely)**
+
+1. **[Remote Git Connection to GitHub](#Remote-Git-Connection-to-GitHub)**
+
+1. **[Git Structure (Workflow)](#Git-Structure-(Workflow))**
+
+1. **[Get a repository from the remote GitHub repository for the first time](#Get-a-repository-from-the-remote-GitHub-repository-for-the-first-time)**
+
+1. **[Take the latest Update from the Master repository](#Take-the-latest-Update-from-the-Master-repository)**
+
+1. **[Steck Status (of the local git repo)](#Steck-Status-(of-the-local-git-repo)**
+
+1. **[Track Local Git Changes](#Track-Local-Git-Changes)**
+
+1. **[Git Branches](#Git-Branches)**
+
+1. **[Git merge branches changes](#Git-merge-branches-changes)**
+
+1. **[MODIFIED FILES: Save an commit local changes to your local git](#MODIFIED-FILES-Save-an-commit-local-changes-to-your-local-git)**
+
+1. **[NEW FILES: Save an commit local changes to your local git](#NEW-FILES-Save-an-commit-local-changes-to-your-local-git)**
+
+1. **[Send and Store local commits to the remote repository](#Send-and-Store-local-commits-to-the-remote-repository)**
+
+1. **[Configure Git](#Configure-Git)**
+
+1. **[Git Tags](#Git-Tags)**
+
+1. **[Git Revert](#Git-Revert)**
+
+1. **[.gitignore File](#.gitignore-File)**
+
+1. **[Git Rebase](#Git-Rebase)**
+
+1. **[References](#[References)**
+
+
 ___
 
 ## Version Control System
@@ -288,7 +329,7 @@ b. you execute the command `$ git merge [BRANCH_NAME]`
 
 ___
 
-## MODIFIED FILES: Save an commit local changes to your **local git**:
+## MODIFIED FILES Save an commit local changes to your local git
 
 - Make some local code changes to a previously existing file and save this file.
 
@@ -298,7 +339,7 @@ ___
 
 ___
 
-## NEW FILES: Save an commit local changes to your **local git**:
+## NEW FILES Save an commit local changes to your local git
 
 - Create a new file named FILE_NAME.
 
@@ -318,7 +359,7 @@ ___
 
 ___
 
-## Send and Store local commits to the **remote repository**:
+## Send and Store local commits to the remote repository
 
 **Save local changes to the Repote/Master remote "original" git**
 
